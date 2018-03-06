@@ -40,7 +40,7 @@
 			<script src="https://cdn.rawgit.com/showdownjs/showdown/1.8.6/dist/showdown.min.js"></script>
 			<script>
 				var converter = new showdown.Converter()
-    		$.get('_about.md').success(
+    		$.get('https://raw.githubusercontent.com/ray-lee-kdanmobile/ray-lee-kdanmobile.github.io/master/_about.md').success(
 				  (data) => {
 						$('#main').append(converter.makeHtml(data))
 					}
